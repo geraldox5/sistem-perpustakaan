@@ -103,6 +103,14 @@ Basdat-Aplikasi-perpustakaan/
 │   ├── buku.php             # CRUD buku
 │   ├── peminjaman.php       # Kelola peminjaman
 │   ├── pengembalian.php     # Kelola pengembalian
+│   ├── kelola_staff.php     # Kelola akun staff perpustakaan
+│   └── laporan.php          # Laporan & statistik
+── staff/                    # Admin panel
+│   ├── index.php            # Dashboard staff
+│   ├── anggota.php          # CRUD anggota
+│   ├── buku.php             # CRUD buku
+│   ├── peminjaman.php       # Kelola peminjaman
+│   ├── pengembalian.php     # Kelola pengembalian
 │   └── laporan.php          # Laporan & statistik
 └── user/                     # User panel
     ├── index.php            # Dashboard user
@@ -225,3 +233,4 @@ Dibuat oleh @geraldofirdaus dengan ❤️ menggunakan teknologi modern untuk mem
 
 
 **Note**: Pastikan untuk selalu backup database sebelum melakukan perubahan atau update aplikasi. 
+
