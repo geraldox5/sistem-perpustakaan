@@ -22,12 +22,6 @@ Aplikasi sistem perpustakaan berbasis web yang dibangun menggunakan PHP, MySQL, 
 - Rata-rata lama peminjaman
 - Buku terpopuler
 
-### 🎨 Desain UI/UX
-- Desain modern dengan warna hijau elegan (#00b894)
-- Font Inter untuk tipografi yang bersih
-- Responsive design untuk mobile dan desktop
-- Animasi dan hover effects
-- SweetAlert untuk notifikasi interaktif
 
 ## 🛠️ Teknologi yang Digunakan
 
@@ -51,12 +45,12 @@ Aplikasi sistem perpustakaan berbasis web yang dibangun menggunakan PHP, MySQL, 
 ### 1. Clone Repository
 ```bash
 git clone [repository-url]
-cd Basdat-Aplikasi-perpustakaan
+cd Sistem-Aplikasi-perpustakaan
 ```
 
 ### 2. Setup Database
 1. Buat database MySQL baru dengan nama `perpustakaan`
-2. Import file `database.sql` ke database tersebut
+2. Import file `didy3854_perpus.sql` ke database tersebut
 3. File ini akan membuat:
    - Semua tabel yang diperlukan
    - Stored procedures
@@ -75,19 +69,24 @@ $database = "perpustakaan";
 ### 4. Setup Web Server
 1. Letakkan semua file di folder web server (htdocs untuk XAMPP)
 2. Pastikan web server dan MySQL berjalan
-3. Akses aplikasi melalui browser: `http://localhost/Basdat-Aplikasi-perpustakaan`
+3. Akses aplikasi melalui browser: `http://localhost/(folder yang digunakan)'
 
 ## 👥 Akun Default
 
 ### Admin
-- **Username**: admin1 atau admin2
-- **Password**: password
+- **Username**: mia
+- **Password**: 123
 - **Akses**: Full access ke semua fitur
 
+- ### staff
+- **Username**: geraldo
+- **Password**: 123
+- **Akses**: Kelola Buku, Kelola Pinjaman, Kelola Pengembalian, Melihat Laporan
+
 ### User
-- **Username**: user1, user2, atau user3
-- **Password**: password
-- **Akses**: Terbatas (lihat buku, pinjam, riwayat)
+- **Username**: emison
+- **Password**: 123
+- **Akses**: Terbatas (lihat buku, pinjam, riwayat), kelola profil pribadi
 
 ## 📁 Struktur File
 
@@ -183,6 +182,14 @@ Basdat-Aplikasi-perpustakaan/
 1. Login dengan akun admin
 2. Kelola data anggota dan buku
 3. Proses peminjaman dan pengembalian
+4. Kelola User Staff
+5. Lihat laporan dan statistik
+6. Monitor aktivitas perpustakaan
+
+7. ### Untuk Staff
+1. Login dengan akun staff
+2. Kelola data anggota dan buku
+3. Proses peminjaman dan pengembalian
 4. Lihat laporan dan statistik
 5. Monitor aktivitas perpustakaan
 
@@ -208,12 +215,13 @@ Basdat-Aplikasi-perpustakaan/
 
 ## 📝 Lisensi
 
-Proyek ini dibuat untuk keperluan akademis dan pembelajaran. Silakan digunakan dan dimodifikasi sesuai kebutuhan.
+2026 © geraldofirdaus@gmail.com. Proyek ini dibuat untuk keperluan akademis dan pembelajaran. Silakan digunakan dan dimodifikasi sesuai kebutuhan.
 
 ## 👨‍💻 Developer
 
-Dibuat dengan ❤️ menggunakan teknologi modern untuk memberikan pengalaman terbaik dalam manajemen perpustakaan.
+Dibuat oleh @geraldofirdaus dengan ❤️ menggunakan teknologi modern untuk memberikan pengalaman terbaik dalam manajemen perpustakaan.
 
 ---
+
 
 **Note**: Pastikan untuk selalu backup database sebelum melakukan perubahan atau update aplikasi. 
